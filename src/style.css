@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Start Colors */
+.bg-custom-grey {
+	background-color: #c3cac2 !important;
+}
+
+.bg-base {
+	background-color: #c3cac2;
+}
+
+.bg-accent-1 {
+	background-color: #647368;
+}
+.bg-accent-2 {
+	background-color: #2e3c3c;
+}
+.bg-accent-3 {
+	background-color: #eecc81;
+}
+/* End Colors */
+
+/* Start Navbar */
+.scrolled {
+	background-color: #c3cac2;
+	transition: 0.4s;
+	box-shadow: 0px 1px 10px #333;
+}
+
+.scrolled .nav-link {
+	color: #333;
+}
+
+.scrolled .nav-link.active {
+	font-weight: bold;
+}
+/* End Navbar */
+
+.bg1 {
+	background: url("./images/AboutUs_1.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 580px;
+}
+
+.bg2 {
+	background: url("./images/AboutUs_2.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	min-height: 580px;
+}
+
+.img-cover {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.gallery {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 50vh;
+}
+
+.custom-hr {
+	width: 100px;
+    border-top: 7px solid #eecc81;
+}
+
+.full-height {
+	height: 100vh;
+}
+
+.portfolio-hero {
+	background: url("./images/Landing_page.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+/* Start Scroll Link */
+
+.scroll-link {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	bottom: 0%;
+	transition: bottom 0.4s;
+}
+
+.scroll-link:hover {
+	transition: all 0.4s;
+	bottom: 2%;
+}
+
+/* End Scroll Link */
